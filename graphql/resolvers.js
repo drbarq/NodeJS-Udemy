@@ -1,5 +1,16 @@
 module.exports = {
-    hello() {
-        return 'Hello World'
+    createUser(args, req) {
+        const email = args.userInput.email
+        
+
+
     }
 }
+// module.exports = {
+//     hello() {
+//         return {
+//             text: 'Hello World',
+//             views: 1245
+//         }
+//     }
+// }
